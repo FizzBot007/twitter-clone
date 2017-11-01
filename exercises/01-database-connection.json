@@ -1,16 +1,16 @@
 {
   "development": {
-    "host": "",
-    "database": "",
-    "port": 0,
-    "user": "",
-    "password": ""
+    "host": "localhost",
+    "database": "data",
+    "port": 5432,
+    "user": "master",
+    "password": "masterp"
   },
   "test": {
-    "host": "",
-    "database": "",
-    "port": 0,
-    "user": "",
-    "password": ""
+    "host": "localhost",
+    "database": "testdb",
+    "port": 5432,
+    "user": "master",
+    "password": "masterp"
   }
 }
