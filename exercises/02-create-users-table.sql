@@ -6,7 +6,7 @@
 --     created_at   (timestamp)     default to current timestamp
 --
 -- Write your query below:
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
     fullname VARCHAR NOT NULL, 
     username VARCHAR(15) UNIQUE NOT NULL, 
     email VARCHAR PRIMARY KEY,
