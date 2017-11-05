@@ -5,3 +5,4 @@
 --     - id
 --
 -- Write your query below:
+DELETE FROM tweets WHERE id = '{{id}}';
