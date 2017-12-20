@@ -5,3 +5,4 @@
 --     - email
 --
 -- Write your query below:
+SELECT COUNT(DISTINCT following) FROM follows WHERE follower = '{{email}}';

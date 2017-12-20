@@ -7,3 +7,4 @@
 --     - follower
 --
 -- Write your query below:
+DELETE FROM follows WHERE following = '{{following}}' and follower = '{{follower}}';

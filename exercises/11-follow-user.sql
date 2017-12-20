@@ -7,3 +7,7 @@
 --     - follower
 --
 -- Write your query below:
+INSERT INTO follows (following, follower) VALUES (
+	(SELECT email FROM users where email = '{{following}}'),
+	(SELECT email FROM users where email = '{{follower}}')
+	);
